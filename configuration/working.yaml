@@ -1,19 +1,23 @@
-oomp_classification: ''
-oomp_type: ''
-oomp_size: ''
-oomp_color: ''
+oomp_classification: 'electronic'
+oomp_type: 'breakout_board_sensor'
+oomp_size: 'accelerometer'
+oomp_color: 'analog_devices_adxl343'
 oomp_description_main: ''
 oomp_description_extra: ''
-oomp_manufacturer: ''
-oomp_part_number: ''
-oomp_open_hardware_project_website: ''
-oomp_open_hardware_project_repo: ''
-# oomp_open_hardware_project_file_list:
-  # - destination_file: "eagle_board.brd"
-  #   source_file: ""
-  # - destination_file: "eagle_schematic.sch"
-  #   source_file: ""
+oomp_manufacturer: 'adafruit'
+oomp_part_number: '4097'
+oomp_open_hardware_project_website: 'https://www.adafruit.com/product/4097'
+oomp_open_hardware_project_repo: 'https://github.com/adafruit/Adafruit_ADXL343_PCB'
+oomp_open_hardware_project_file_list:
+  - destination_file: "eagle_board.brd"
+    source_file: "Adafruit ADXL343 STEMMA QT.brd"
+  - destination_file: "eagle_schematic.sch"
+    source_file: "Adafruit ADXL343 STEMMA QT.sch"
   #  - destination_file: "kicad/working.kicad_board"
   #     source_file: ""
-# oshwa_registration_number: 'us002319'
-# oshwa_registration_link: 'https://certification.oshwa.org/us002319.html'
+  - destination_file: "license_source.txt"
+    source_file: "license.txt"
+  - destination_file: "readme_source.md"
+    source_file: "README.md"
+oshwa_registration_number: 'US000409'
+oshwa_registration_link: 'https://certification.oshwa.org/us000409.html'
